@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Application Page.css">
+    <link rel="stylesheet" href="CSS/Enefem.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <title>Enefem application page</title>
+</head>
+<body>
+   
+    <!-- ---------------------------------------------------------NAVBAR ------------------------------------------------------------------->
+
+    <nav>
+        <div class="container nav__container">
+    
+            <a href="EnefemHome.html"><h4>ENEFEM SCHOOLS</h4></a>
+    
+            <ul class="nav__menu">
+                <li><a href="EnefemHome.html">Home</a></li>
+                <li><a href="EnefemAbout.html">About</a></li>
+                <li><a href="EnefemCourses.html">Courses</a></li>
+                <li><a href="EnefemContact.html">Contact Us</a></li>
+                <li><a href="EnefemGallery.html">Gallery</a></li>
+            </ul>
+    
+    <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+    <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+    </div>
+    </nav> 
+<!-- --------------------------------------------------------- END OF NAVBAR ------------------------------------------------------------------->
+
+<div id="body">
+     <section class="section">
+        <h1 style="color: black;">Registration Form</h1>
+            <form action="#" method="post" class="form" id="form" name="form">
+
+                    <div class="input-box">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your full name" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="Enter email address" required/>
+                        </div>
+
+                        <div class="column">
+                            <div class="input-box">
+                                <label>Phone Number</label>
+                                <input type="number" placeholder="Enter your phone number" required/>
+                            </div>
+
+                            <div class="input-box">
+                                <label>Birth Date</label>
+                                <input type="date" placeholder="Enter your birth date" required/>
+                            </div>
+
+                            <div class="input-box">
+                                <label>Previous School & Class</label>
+                                <input type="text" placeholder="Enter your previous school and class" required/>
+                            </div>
+                        </div>
+
+                <div class="gender-box">
+                    <h3 style="color: green;">Gender</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input type="radio" id="check" name="gender" checked/>
+                            <label for="check">Male</label>
+                        </div>
+
+                        <div class="gender">
+                            <input type="radio" id="check-female" name="gender"/>
+                            <label for="check-female">Female</label>
+                        </div>
+
+                        <div class="gender">
+                            <input type="radio" id="check-other" name="gender"/>
+                            <label for="check-other">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-box address">
+                    <label>Address</label>
+                    <div class="column">
+                        <div class="select-box">
+                            <select>
+                                <option hidden> State </option>
+                                <option> Lagos </option>
+                                <option> Ogun</option>
+                                <option> Oyo</option>
+                                <option> Osun </option>
+                                <option> Kwara </option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="Enter your city" required/>
+                    <input type="text" placeholder="Enter street address" required/>
+                    </div>
+                    
+                    <div class="column">
+                        <input type="text" placeholder="Enter your region" required/>
+                    <input type="number" placeholder="Enter your postal code" required/>
+                    </div>
+                </div>
+
+                <div class="input-box parents">
+                    <label>Name of Parent/Guardian</label>
+                    <input type="text" placeholder="Enter your full name" required/>
+              
+
+                <div class="column">
+                    <input type="text" placeholder="Enter your occupation" required/>
+                <input type="number" placeholder="Enter your phone number" required/>
+                </div>
+
+            </div>
+
+        
+
+                <div class="input-box address">
+                    <label>Address</label>
+                    <input type="text" placeholder="Enter residential address" required/>
+                    <input type="text" placeholder="Enter office address" required/>
+                </div>
+
+             
+
+                <button>Submit</button>
+        </form>
+     </section>
+    </div> 
+<script src="enefem.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+#enefem {
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    /* color: darkgreen; */
+    /* background-color: goldenrod; */
+    width: 100%;   
+}
+
+#container{
+    /* background-color: darkolivegreen; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: wrap;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,  1fr));
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-gap: 30px;
+    columns: 3;
+}
+
+#gallery img{
+    width: 100%;
+    border: 2px solid var(--color-white);
+    border-radius: 0.8rem;
+}
+
+#info {
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    text-align: center;
+}
